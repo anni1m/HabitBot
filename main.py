@@ -8,7 +8,7 @@ from datetime import date
 
 # ================== ENV ==================
 DATABASE_URL = "postgresql://postgres:dDeBhbcdRnbzXQDpLucowSLYTwfwKVfU@postgres.railway.internal:5432/railway"
-VK_TOKEN = "vk1.a.JfQYO98XK7OY13qrDBwjQtKBUWIX3MP6AqPTlw7DT6Z8_-tIzzwxgOZKq7d4lvW4FE_jWfjUPmeN3tUV6RqqVz304_ipl7Dul3UaMqL7E2TbsNtOgNlOnp2jOfZkDWFY59GBm6H4YHP3mjbDWzcYqFSC2Dj-0MT5QN373HXe9k0HzGjtYziLq9xU90GMLosEEsk_7kpEjzjwy14fPIrixQ"
+VK_TOKEN = "vk1.a.HuMfcuLTEGkafk9QfonFEr6HbzGCxJvrc7gsnf_n2Z0o-2O1VqWVsCaNqlRTjb8yM4h91mrAb9KG7CIoGpbwnhYI5WXL905piajqyeLr6wTbXILnYEHf-idq8CCIDEPlCJFkLItjsRPs1LMivGyjFUAwGuiFPF3Jbpfp0Juy_crOnegtlbcmMcSua8mkPQOkGoTbVL1EGNwgDCAesSHH_Q"
 GROUP_ID = 237312363
 
 if not DATABASE_URL:
