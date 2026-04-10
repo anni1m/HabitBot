@@ -5,6 +5,12 @@ import psycopg2
 import os
 import time
 from datetime import date
+import os
+
+print("=== ENV CHECK ===")
+print("DATABASE_URL:", os.environ.get("DATABASE_URL"))
+print("ALL ENV:", dict(os.environ))
+print("=================")
 
 # ================== ENV ==================
 DATABASE_URL = os.environ.get("DATABASE_URL")
