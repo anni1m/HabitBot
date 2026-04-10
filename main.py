@@ -5,15 +5,9 @@ import psycopg2
 import os
 import time
 from datetime import date
-import os
-
-print("=== ENV CHECK ===")
-print("DATABASE_URL:", os.environ.get("DATABASE_URL"))
-print("ALL ENV:", dict(os.environ))
-print("=================")
 
 # ================== ENV ==================
-DATABASE_URL = os.environ.get("DATABASE_URL")
+DATABASE_URL = "postgresql://postgres:dDeBhbcdRnbzXQDpLucowSLYTwfwKVfU@postgres.railway.internal:5432/railway"
 VK_TOKEN = os.environ.get("VK_TOKEN")
 GROUP_ID = int(os.environ.get("GROUP_ID", 0))
 
