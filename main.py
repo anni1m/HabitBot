@@ -8,8 +8,8 @@ from datetime import date
 
 # ================== ENV ==================
 DATABASE_URL = "postgresql://postgres:dDeBhbcdRnbzXQDpLucowSLYTwfwKVfU@postgres.railway.internal:5432/railway"
-VK_TOKEN = os.environ.get("VK_TOKEN")
-GROUP_ID = int(os.environ.get("GROUP_ID", 0))
+VK_TOKEN = "vk1.a.JfQYO98XK7OY13qrDBwjQtKBUWIX3MP6AqPTlw7DT6Z8_-tIzzwxgOZKq7d4lvW4FE_jWfjUPmeN3tUV6RqqVz304_ipl7Dul3UaMqL7E2TbsNtOgNlOnp2jOfZkDWFY59GBm6H4YHP3mjbDWzcYqFSC2Dj-0MT5QN373HXe9k0HzGjtYziLq9xU90GMLosEEsk_7kpEjzjwy14fPIrixQ"
+GROUP_ID = 237312363
 
 if not DATABASE_URL:
     raise Exception("DATABASE_URL не задана")
