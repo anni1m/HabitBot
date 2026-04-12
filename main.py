@@ -283,5 +283,13 @@ def main():
         else:
             send_message(vk, peer_id, "Используй кнопки", get_main_keyboard())
 
+def run_bot():
+    while True:
+        try:
+            main()
+        except Exception as e:
+            print(f"Ошибка: {e}. Перезапуск через 5 секунд...")
+            time.sleep(5)
+
 if __name__ == "__main__":
-    main()
+    run_bot()
